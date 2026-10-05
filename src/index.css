@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-legal {
+    font-family: 'Merriweather', 'Times New Roman', Georgia, serif;
+  }
+  .font-brand {
+    font-family: 'Cinzel', Georgia, serif;
+  }
+}
+
+/* Custom scrollbars for document reader and editor */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+@media print {
+  body {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .legal-print-container {
+    padding: 0 !important;
+    background: transparent !important;
+    color: #000000 !important;
+  }
+}

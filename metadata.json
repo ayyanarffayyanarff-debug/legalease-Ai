@@ -1,0 +1,6 @@
+{
+  "name": "LegalEase - AI Legal Document Generator",
+  "description": "Professional AI-powered legal contract and document generator with customizable clauses, live preview, inline editing, and multi-format exports in PDF, DOCX, and TXT.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
